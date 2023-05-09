@@ -1,0 +1,58 @@
+﻿<Window x:Class="Wordle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wordle"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="-- WORDLE --" Grid.ColumnSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontFamily="Impact"/>
+
+        <TextBox x:Name="txt1_1" Grid.Row="1" Grid.Column="0" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt2_1" Grid.Row="2" Grid.Column="0" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt3_1" Grid.Row="3" Grid.Column="0" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt4_1" Grid.Row="4" Grid.Column="0" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt5_1" Grid.Row="5" Grid.Column="0" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt1_2" Grid.Row="1" Grid.Column="1" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt2_2" Grid.Row="2" Grid.Column="1" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt3_2" Grid.Row="3" Grid.Column="1" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt4_2" Grid.Row="4" Grid.Column="1" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt5_2" Grid.Row="5" Grid.Column="1" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt1_3" Grid.Row="1" Grid.Column="2" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt2_3" Grid.Row="2" Grid.Column="2" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt3_3" Grid.Row="3" Grid.Column="2" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt4_3" Grid.Row="4" Grid.Column="2" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt5_3" Grid.Row="5" Grid.Column="2" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt1_4" Grid.Row="1" Grid.Column="3" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt2_4" Grid.Row="2" Grid.Column="3" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt3_4" Grid.Row="3" Grid.Column="3" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt4_4" Grid.Row="4" Grid.Column="3" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt5_4" Grid.Row="5" Grid.Column="3" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
+        <TextBox x:Name="txt1_5" Grid.Row="1" Grid.Column="4" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered" PreviewTextInput="Key"/>
+        <TextBox x:Name="txt2_5" Grid.Row="2" Grid.Column="4" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered" PreviewTextInput="Key"/>
+        <TextBox x:Name="txt3_5" Grid.Row="3" Grid.Column="4" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered" PreviewTextInput="Key"/>
+        <TextBox x:Name="txt4_5" Grid.Row="4" Grid.Column="4" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered" PreviewTextInput="Key"/>
+        <TextBox x:Name="txt5_5" Grid.Row="5" Grid.Column="4" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered" PreviewTextInput="Key"/>
+
+        <Label x:Name="lblOut" Grid.Row="6"/>
+    </Grid>
+</Window>
