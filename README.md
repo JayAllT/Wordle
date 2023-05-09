@@ -1,2 +1,2 @@
 # Wordle
-Worlde is C# WPF
+Worlde in C# WPF
