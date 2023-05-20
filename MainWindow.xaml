@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wordle"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="350">
+        Title="MainWindow" Height="500" Width="350">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -25,7 +26,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Content="-- WORDLE --" Grid.ColumnSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontFamily="Impact"/>
+        <Label Content="---- WORDLE ----" Grid.ColumnSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontFamily="Impact"/>
 
         <TextBox x:Name="txt1_1" Grid.Row="1" Grid.Column="0" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
         <TextBox x:Name="txt2_1" Grid.Row="2" Grid.Column="0" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered"/>
@@ -53,6 +54,7 @@
         <TextBox x:Name="txt4_5" Grid.Row="4" Grid.Column="4" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered" PreviewTextInput="Key"/>
         <TextBox x:Name="txt5_5" Grid.Row="5" Grid.Column="4" FontSize="40" Text="" TextAlignment="Center" Margin="5" TextChanged="LetterEntered" PreviewTextInput="Key"/>
 
-        <Label x:Name="lblOut" Grid.Row="6"/>
+        <Label x:Name="lblOut" Grid.Row="6" Grid.ColumnSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+        <Button x:Name="btnReplay" IsEnabled="False" Content="New Word" Grid.Row="7" Grid.ColumnSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="35" FontSize="16" Click="btnReplay_Click"/>
     </Grid>
 </Window>
