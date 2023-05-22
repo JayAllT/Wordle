@@ -156,8 +156,6 @@ namespace Wordle
                 strEntered += txtCurrent.Text.ToLower();  // get word just entered
             }
 
-            Console.WriteLine(strWord);
-
             // background colours
             char[] letters = new char[5] { ' ', ' ', ' ', ' ', ' ' };  // letters in word, not including duplicates
             int[] letterCounts = new int[5] { 0, 0, 0, 0, 0 };  // counts of each letter
@@ -254,8 +252,26 @@ namespace Wordle
 
             NewWord();
 
-            // clear textboxes
-            foreach ()
+            // emable textboxes
+            SetTextboxStates(true);
+
+            // clear textboxes and reset colour
+            foreach (TextBox box in txtBoxes)
+            {
+                box.Clear();
+                box.ClearValue(BackgroundProperty);
+            }
+
+            // clear output
+            lblOut.Content = "";
+
+            // disable new word button
+            btnReplay.IsEnabled = false;
+
+            booFinished = false;
+
+            // go to first textbox
+            txtBoxes[0].Focus();
         }
     }
 }

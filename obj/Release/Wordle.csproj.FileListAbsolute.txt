@@ -1,0 +1,16 @@
+C:\Users\jayal\Documents\Dev\C#\Wordle\bin\Release\Wordle.exe.config
+C:\Users\jayal\Documents\Dev\C#\Wordle\bin\Release\Wordle.exe
+C:\Users\jayal\Documents\Dev\C#\Wordle\bin\Release\Wordle.pdb
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.csproj.AssemblyReference.cache
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.csproj.SuggestedBindingRedirects.cache
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\MainWindow.g.cs
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\App.g.cs
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle_MarkupCompile.cache
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle_MarkupCompile.lref
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\MainWindow.baml
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.g.resources
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.Properties.Resources.resources
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.csproj.GenerateResource.cache
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.csproj.CoreCompileInputs.cache
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.exe
+C:\Users\jayal\Documents\Dev\C#\Wordle\obj\Release\Wordle.pdb

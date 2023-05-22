@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wordle"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="350">
+        Title="Wordle" Height="500" Width="350">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
